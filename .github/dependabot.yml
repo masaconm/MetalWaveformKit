@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # Keep the actions used in .github/workflows up to date.
+  # The Swift package has no external dependencies, so no swift entry is needed.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    labels:
+      - ci

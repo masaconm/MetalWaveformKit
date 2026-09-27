@@ -45,7 +45,7 @@ The package URL is `https://github.com/masaconm/MetalWaveformKit.git`.
 For a project managed with `Package.swift`, add the package dependency:
 
 ```swift
-.package(url: "https://github.com/masaconm/MetalWaveformKit.git", branch: "main")
+.package(url: "https://github.com/masaconm/MetalWaveformKit.git", from: "0.1.0")
 ```
 
 Add the product to your target's dependencies:

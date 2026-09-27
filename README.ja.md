@@ -45,7 +45,7 @@ SwiftとMetalで音声波形を描画するライブラリです。波形・再�
 `Package.swift`で管理する場合は、パッケージの依存に追加します。
 
 ```swift
-.package(url: "https://github.com/masaconm/MetalWaveformKit.git", branch: "main")
+.package(url: "https://github.com/masaconm/MetalWaveformKit.git", from: "0.1.0")
 ```
 
 利用するターゲットの依存に追加します。
