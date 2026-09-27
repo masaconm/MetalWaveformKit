@@ -2,6 +2,13 @@
 
 English | [日本語](README.ja.md)
 
+[![Swift 6.1](https://img.shields.io/badge/Swift-6.1-F05138?logo=swift&logoColor=white)](Package.swift)
+[![Platforms](https://img.shields.io/badge/platforms-iOS%2017%2B%20%7C%20macOS%2014%2B-0A84FF)](Package.swift)
+[![SwiftPM](https://img.shields.io/badge/SwiftPM-compatible-brightgreen)](https://www.swift.org/documentation/package-manager/)
+[![CI](https://github.com/masaconm/MetalWaveformKit/actions/workflows/ci.yml/badge.svg)](https://github.com/masaconm/MetalWaveformKit/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/masaconm/MetalWaveformKit)](https://github.com/masaconm/MetalWaveformKit/releases)
+[![License: MIT](https://img.shields.io/github/license/masaconm/MetalWaveformKit)](LICENSE)
+
 A Swift and Metal library for rendering audio waveforms, a playhead, cue markers and a beat grid on a shared time axis.
 
 <p align="center">
@@ -39,7 +46,7 @@ For individual products, see [module responsibilities and dependencies](docs/ARC
 The package URL is `https://github.com/masaconm/MetalWaveformKit.git`.
 
 1. In Xcode, choose **File → Add Package Dependencies…** and enter the package URL.
-2. Set **Dependency Rule** to **Branch** and enter `main`.
+2. Set **Dependency Rule** to **Up to Next Major Version** and enter `0.1.0`.
 3. Add the `MetalWaveformKit` product to your app target.
 
 For a project managed with `Package.swift`, add the package dependency:

@@ -2,6 +2,13 @@
 
 [English](README.md) | 日本語
 
+[![Swift 6.1](https://img.shields.io/badge/Swift-6.1-F05138?logo=swift&logoColor=white)](Package.swift)
+[![Platforms](https://img.shields.io/badge/platforms-iOS%2017%2B%20%7C%20macOS%2014%2B-0A84FF)](Package.swift)
+[![SwiftPM](https://img.shields.io/badge/SwiftPM-compatible-brightgreen)](https://www.swift.org/documentation/package-manager/)
+[![CI](https://github.com/masaconm/MetalWaveformKit/actions/workflows/ci.yml/badge.svg)](https://github.com/masaconm/MetalWaveformKit/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/masaconm/MetalWaveformKit)](https://github.com/masaconm/MetalWaveformKit/releases)
+[![License: MIT](https://img.shields.io/github/license/masaconm/MetalWaveformKit)](LICENSE)
+
 SwiftとMetalで音声波形を描画するライブラリです。波形・再生線・キューマーカー・拍グリッドを、共通の時間軸で表示します。
 
 <p align="center">
@@ -39,7 +46,7 @@ SwiftとMetalで音声波形を描画するライブラリです。波形・再�
 パッケージURLは`https://github.com/masaconm/MetalWaveformKit.git`です。
 
 1. Xcodeで **File → Add Package Dependencies…** を選び、パッケージURLを入力します。
-2. **Dependency Rule**で **Branch** を選び、`main`を指定します。
+2. **Dependency Rule**で **Up to Next Major Version** を選び、`0.1.0`を指定します。
 3. 製品`MetalWaveformKit`をアプリのターゲットへ追加します。
 
 `Package.swift`で管理する場合は、パッケージの依存に追加します。
