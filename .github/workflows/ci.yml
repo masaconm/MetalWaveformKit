@@ -1,0 +1,41 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    name: CPU tests (${{ matrix.configuration }})
+    runs-on: macos-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [debug, release]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: |
+          xcodebuild -version
+          swift --version
+      - name: Test without a GPU device
+        run: swift test -c ${{ matrix.configuration }} --skip WaveformMetalGPUTests
+  example:
+    name: iOS example and documentation code
+    runs-on: macos-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build iOS example
+        run: >-
+          xcodebuild build
+          -project Examples/RenderingDemo/RenderingDemo.xcodeproj
+          -scheme RenderingDemo
+          -destination 'generic/platform=iOS Simulator'
+          CODE_SIGNING_ALLOWED=NO

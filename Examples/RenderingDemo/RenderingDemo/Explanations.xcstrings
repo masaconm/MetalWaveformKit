@@ -1,0 +1,108 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "ON rounds camera movement to pixels; OFF preserves fractions. The difference is at most half a pixel and can be invisible while paused.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ON rounds camera movement to pixels; OFF preserves fractions. The difference is at most half a pixel and can be invisible while paused."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ONはカメラの移動を整数ピクセルにそろえ、OFFは小数部分も保持します。差は最大0.5ピクセルで、停止中は見えない場合があります。"
+          }
+        }
+      }
+    },
+    "Use the play button to animate and the return-to-start button to return to the beginning (0 s). Pinch or use the slider to zoom.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use the play button to animate and the return-to-start button to return to the beginning (0 s). Pinch or use the slider to zoom."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再生ボタンで波形を動かし、頭出しボタンで先頭（0秒）へ戻ります。ピンチまたはスライダーでズームできます。"
+          }
+        }
+      }
+    },
+    "SET CUE saves the current time. Tap a numbered cue to jump there; swipe the cue row to see more. Clear removes all cues. White lines show 0.5-second beats.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SET CUE saves the current time. Tap a numbered cue to jump there; swipe the cue row to see more. Clear removes all cues. White lines show 0.5-second beats."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SET CUEで現在位置を保存します。番号を押すと登録位置へ移動し、横にスワイプすると残りの番号を表示できます。Clearで全キューを削除します。白い線は0.5秒間隔の拍です。"
+          }
+        }
+      }
+    },
+    "Watch the cyan edges. The comparison alternates between 0 and 0.25 pixels: ON stays still; OFF changes brightness.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Watch the cyan edges. The comparison alternates between 0 and 0.25 pixels: ON stays still; OFF changes brightness."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "水色の縁を見比べてください。入力を0と0.25ピクセルで往復させると、ON側は同じ画素を保ち、OFF側は縁の明るさが変わります。"
+          }
+        }
+      }
+    },
+    "The same detail of actual Metal rendering is enlarged 24× without smoothing. Each source pixel covers 24 × 24 screen pixels.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The same detail of actual Metal rendering is enlarged 24× without smoothing. Each source pixel covers 24 × 24 screen pixels."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "実際にMetalで描画した同じ部分を、補間せずに24倍へ拡大しています。元の1画素を、画面上の24×24ピクセルで表示します。"
+          }
+        }
+      }
+    },
+    "Step pauses the comparison. At 0.50 px, ON moves by one whole pixel. Reset returns to 0. Inspection does not change the main controls.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step pauses the comparison. At 0.50 px, ON moves by one whole pixel. Reset returns to 0. Inspection does not change the main controls."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stepを押すと自動比較が止まります。0.50ピクセルではON側も1ピクセル進み、Resetで0へ戻ります。通常画面の操作や設定には影響しません。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
